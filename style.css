@@ -138,13 +138,16 @@ button:hover{
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     border-radius: 10px;
     margin: 0 40px;
-    padding: 10px;
+    padding: 20px;
     margin: auto;
 }
 .box img{
     width: 300px;
     display: flex;
     border-radius: 10px;
+}
+.box h2{
+    margin: 10px;
 }
 
 /* score area start form heare */
@@ -161,153 +164,87 @@ button:hover{
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* header-area responsive */
-@media (max-width: 1000px) {
-    .logo-area{
-        width: 200px;
-    }
-    .logo-area img{
-        width: 80%;
-    }
-    .header-continer{
-        width: 95%;
-        margin: auto;
-    }
-    .right-area img{
-        width: 80%;
-        margin-left: 15px;
-    }
-    .left-area h1{
-        font-size: 2.1em;
-        width: 73%;
-        color: #3A3A3A;
-        line-height: 60px;
-    }
-    .logo-area img{
-        width: 100%;
-    }
-
+.contact-from{
+    display: flex;
+    width: 91%;
+    justify-content: space-evenly;
+    margin-left: 65px;
 
 }
-@media (max-width: 880px){
-        .logo-area{
-        width: 100px;
-    }
-    .logo-area img{
-        width: 50%;
-
-    }
-    .logo-area{
-        margin-right: 73px;
-    }
-    .header-continer{
-        width: 100%;
-        margin: auto;
-    }
-    .right-area img{
-        width: 50%;
-        margin-left: 100px;
-        margin-top: 60px;
-    }
-    .left-area h1{
-        font-size: 2em;
-        width: 100%;
-        color: #3A3A3A;
-        line-height: 60px;
-        margin-right: 5px;
-    }
-    .logo-area img{
-        width: 150%;
-    }
-    .menu-area ul li a{
-        font-size: 1em;
-    }
-    .left-area{
-        margin-left: 10px;
-        margin-top: 50px;
-        
-    }
+.con-left-ara{
+    margin: 0 20px;
+    height: 430px;
 
 }
-@media (max-width: 735px) {
-    .menubar{
-        display: flex;
-        flex-direction: column;
+.con-left-ara input, textarea{
+    display: block;
+    width: 100%;
+    padding: 2px;
+    font-size: 18px;
+    border-radius: 3px;
+    border: 1px solid #000;
+    box-sizing: border-box;
     
-    }
-    .section{
-        display: flex;
-        flex-direction: column;
+}
+.con-left-ara input, textarea:focus{
+    outline: none;
+}
 
-    }
-    .menu-area{
-        margin-right: 48px;
-    }
-    .menu-area ul{
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-    }
-    .right-area{
-        width: 100%;
-    }
-    .left-area h1{
-        font-size: 2em;
-        width: 100%;
-        margin: auto;
-    }
-    .left-area p{
-        margin-top: 41px;
-    }
-    .left-area{
-        width: 100%;
-    }
-    button{
-        align-items: center;
-        display: flex;
-        margin: auto;
-        margin-top: 20px;
-    }
+.con-left-ara label{
+    font-size: 18px;
+}
+
+/* footer-area start form heare */
+
+
+.footer-area{
+    background-color: #000;
+    height: 200px;
+    margin-top: 160px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 
 }
+.footer-area h1{
+    color: #575353;
+}
+.footer-area p{
+    color: #FFF;
+}
+.footer-area span{
+    color: #f74808;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
