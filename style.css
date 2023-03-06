@@ -67,19 +67,19 @@ hr{
     margin-left: 15px;
 }
 button{
-    background-color: #FC703C;
-    padding: 14px 38px;
-    border-radius: 40px;
+    background-image: linear-gradient(to right, #FB934A, #FD4D30);
+
     font-size: 18px;
     color: #FFF;
-    /* border-radius: 2px solid transparent; */
-    /* box-shadow: rgb(250, 125, 103) 0px 7px 29px 0px; */
     margin-top: 24px;
-    border-color: transparent;
+
+    border-radius: 23px;
+    border: 1px solid transparent;
+    padding: 8px 21px;
 }
-button:hover{
+/* button:hover{
     background-color: #f74808;
-}
+} */
 
 /* abou-area start form heare */
 
